@@ -1,23 +1,19 @@
 # LLM-Powered Stock Decision Intelligence System
 
-This project implements an end-to-end decision intelligence pipeline that combines
-quantitative stock market indicators with Large Language Model (LLM) reasoning.
+An end-to-end system that combines **quantitative market indicators** with **LLM-based reasoning** to generate **explainable stock analysis, trade decisions, and risk-aware position sizing**.
 
 ## What this project does
-- Fetches historical stock data via FastAPI
-- Engineers technical indicators (MA, volatility, returns)
-- Uses an LLM to generate explainable financial analysis
-- Converts LLM reasoning + signals into actionable decisions
-- Applies confidence-aware risk and position sizing
+- Computes technical indicators (moving averages, returns, volatility)
+- Uses a locally deployed LLM for structured financial reasoning
+- Converts signals + LLM insights into Buy/Hold/Sell decisions
+- Applies confidence-based risk and position sizing
+- Includes faithfulness checks to prevent unsupported LLM outputs
 
-## Key Highlights
-- Explainable AI (no black-box predictions)
-- Faithfulness checks to prevent hallucinations
-- Decision intelligence beyond raw analytics
-- Designed for real-world deployment
+## Why it stands out
+- Focuses on **decision intelligence**, not just analytics
+- Emphasizes **explainability and trust in LLM outputs**
+- Designed as a **deployable, real-world financial system**
 
 ## Tech Stack
-- Python, Pandas, NumPy
-- FastAPI (REST endpoints)
-- HuggingFace Transformers (LLM inference)
-- Decision & risk engines
+Python • Pandas • NumPy • FastAPI • HuggingFace Transformers
+
